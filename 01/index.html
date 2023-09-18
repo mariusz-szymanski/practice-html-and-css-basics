@@ -6,7 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>devmentor.pl - HTML & CSS BASICS - #01</title>
 </head>
+
 <body>
+<header>
+    <h1 style="font-family: fantasy;"><a href="#">This is Logo</a></h1>
     
+    <nav class="nav">
+        <ul class="nav__list">
+            <li><a href="#">about us</a>
+                <ul>
+                    <li><a href="#">menu</a>
+                        <ul>
+                            <li><a href="#">submenu</a></li>
+                            <li><a href="#">submenu1</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header> 
+    <main>
+        <article>
+            <h2>Web development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br>
+                adipisicing elit. Deleniti ducimus harum <br>
+                dicta hic modi provident optio iste, <br>
+                repudiandae similique voluptate eos <br>
+                tenetur soluta laudantium illo veritatis, <br>
+                vero ab reprehenderit error.
+                </p>
+                <p>Published on: 18.09.23 </p>
+                <p>By: John Smith</p>
+                <img src="./web-development.png" alt="web developer">
+                <br><br>
+                <table>
+                    <caption style="font-weight: bold;">This is table</caption>
+                    <colgroup>
+                    <col span="3" style="background: lightblue;">
+                    <col style="background: lightgray;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">column 1</th>
+                            <th scope="col">column 2</th>
+                            <th scope="col">column 3</th>
+                            <th scope="col">column 4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#</td>
+                            <td>#</td>
+                            <td>#</td>
+                            <td>#</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </article>
+            <br><br>
+        <form>
+            Leave your comment: <input type="text"><br><br>
+            Author: <input type="text"><br><br>
+            Date: <input type="date"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br><br>
+        <section class="comments">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus,<br>Mark Brown 08/03/2021</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, temporibus omnis! Eum, ipsum. <br>Jane Hill 19/12/2021</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae. <br>Alex Mill 05/02/2022</p>
+        </section>
+    </main>
+    <br><br>
+    <footer>
+        <p>&copy; 2023 John S WebDev. All rights reserved.</p>
+    </footer>
 </body>
-</html>
+</html>  
