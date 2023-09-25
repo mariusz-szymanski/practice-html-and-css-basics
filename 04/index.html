@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three level menu</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+
+
+<body>
+    <nav class="nav">
+        <ul class="nav__list menu">
+            <li class="menu__item"><a href="#" class="menu__link">HOME</a></li>
+            <li class="menu__item menu__dropdown">
+                <a href="#" class="menu__link">ITEMS</a>
+                <ul class="dropdown">
+                    <li class="dropdown__item"><a href="#" class="dropdown__link">submenu1</a></li>
+                    <li class="dropdown__item dropdown__item--second"><a href="#" class="dropdown__link">submenu2</a>
+                        <ul class="dropdown-2">
+                            <li class="dropdown-2__item"><a href="#" class="dropdown-2__link">sub1</a></li>
+                            <li class="dropdown-2__item"><a href="#" class="dropdown-2__link">sub2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item"><a href="#" class="menu__link">SETTINGS</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">CONTACT</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
